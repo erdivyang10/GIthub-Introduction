@@ -9,3 +9,7 @@ def number_of_pages(filename):
                 #data_table =  pdf.pages[2].extract_table()
                 for tables in pdf.pages:
                         print('Pages in PDF files: ',tables)
+
+
+a = number_of_pages("abc.pdf")
+print(a)                        
